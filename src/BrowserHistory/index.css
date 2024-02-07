@@ -1,0 +1,86 @@
+.main-container {
+  height: 100vh;
+}
+
+.header {
+  background-color: #3367d6;
+  height: 10vh;
+  /* width: 100%;  */
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  padding-left: 24px;
+}
+
+.app-logo {
+  width: 22%;
+  margin-right: auto;
+}
+
+.input-card {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: auto;
+  background-color: #2850a7;
+  width: 55%;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ececec;
+}
+.header-search-img {
+  margin: 1px;
+}
+
+.input {
+  background-color: transparent;
+  outline: none;
+  width: 90%;
+  border-style: none;
+  border-left: solid 1px #ececec;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 11px;
+  color: #ececec;
+}
+
+/* .middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.empty-history {
+  font-weight: 700;
+  font-size: 34px;
+  /* align-self: center; */
+  color: #475569;
+  /* margin-top: auto; */
+}
+@media screen and (min-width: 768px) {
+  .input-card {
+    height: 35%;
+    padding-left: 4px;
+  }
+  .input {
+    font-size: 15px;
+  }
+}
+.middle-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 13px;
+  width: 90%;
+  box-shadow: 0 0 5px #ececec;
+}
